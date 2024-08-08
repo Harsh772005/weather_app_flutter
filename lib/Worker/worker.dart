@@ -50,8 +50,7 @@ class Worker {
         main = mainDescription;
         icon = weatherIcon;
 
-        print(
-            'Temp: $temp, Humidity: $humidity, Air Speed: $air_speed, Description: $description, Main: $main, Icon: $icon');
+        print('Temp: $temp, Humidity: $humidity, Air Speed: $air_speed, Description: $description, Main: $main, Icon: $icon');
       } else {
         throw Exception('Failed to load weather data');
       }
