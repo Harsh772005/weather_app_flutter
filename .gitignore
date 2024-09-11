@@ -42,14 +42,3 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-
-.dart_tool/
-.idea/
-.packages
-.flutter-plugins
-.flutter-plugins-dependencies
-.metadata
-android/.gradle/
-ios/Pods/
-build/
-.DS_Store
