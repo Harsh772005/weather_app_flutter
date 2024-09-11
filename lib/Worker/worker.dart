@@ -21,7 +21,7 @@ class Worker {
       // Making the API call
       final response = await get(
         Uri.parse(
-            'https://api.openweathermap.org/data/2.5/weather?q=$location&appid=a1983ea77fa2fd9daa39e3173884fc7a&units=metric'),
+            'https://api.openweathermap.org/data/2.5/weather?q=$location&appid={your_api_key}'),
       );
 
       if (response.statusCode == 200) {
